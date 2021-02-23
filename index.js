@@ -50,7 +50,7 @@ module.exports = {
     presets: [
         // Latest stable ECMAScript features
         [
-            'babel-preset-env',
+            '@babel/env',
             {
                 targets: {
                     browsers: browsers.split('|'),
