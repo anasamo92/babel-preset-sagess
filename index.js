@@ -63,7 +63,7 @@ module.exports = {
                 modules: LEGACY_EXPORTS ? 'commonjs' : false
             },
         ],
-        'babel-preset-react'
+        '@babel/react'
     ],
     plugins,
     env: {
